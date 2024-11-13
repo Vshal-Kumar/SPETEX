@@ -1,0 +1,84 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5EDED"
+    tools:ignore="ExtraText">
+
+<TextView
+android:id="@+id/titleTextView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center_horizontal"
+android:layout_marginTop="16dp"
+android:text="Choose an Option"
+android:textColor="#3C3D37"
+android:textSize="20sp"
+android:textStyle="bold"
+tools:ignore="HardcodedText" />
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="48dp"
+android:gravity="center"
+android:orientation="horizontal">
+
+<Button
+    android:id="@+id/btnSpeechToText"
+    android:layout_width="0dp"
+    android:layout_height="50dp"
+    android:layout_marginEnd="8dp"
+    android:layout_weight="1"
+    android:backgroundTint="#FFAF00"
+    android:contentDescription="Speech To Text"
+    android:elevation="8dp"
+    android:padding="0px"
+    android:text="Speech To Text"
+    android:textColor="#3C3D37"
+    tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+<Button
+    android:id="@+id/btnTextToSpeech"
+    android:layout_width="0dp"
+    android:layout_height="50dp"
+    android:layout_marginEnd="8dp"
+    android:layout_weight="1"
+    android:backgroundTint="#FFAF00"
+    android:contentDescription="Convert Text to Speech"
+    android:elevation="8dp"
+    android:padding="0dp"
+    android:text="Text to Speech"
+    android:textColor="#3C3D37"
+    tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnDictionary"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:backgroundTint="#FFAF00"
+        android:contentDescription="@string/open_dictionary"
+        android:elevation="8dp"
+        android:padding="0dp"
+        android:text="Dictionary"
+        android:textColor="#3C3D37"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+</LinearLayout>
+
+<ImageView
+android:id="@+id/mainImage"
+android:layout_width="match_parent"
+android:layout_height="480dp"
+android:layout_gravity="center"
+android:layout_marginTop="32dp"
+android:src="@drawable/mainb"
+tools:ignore="ContentDescription,MissingConstraints"
+tools:layout_editor_absoluteY="151dp" />
+
+    </LinearLayout>

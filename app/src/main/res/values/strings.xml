@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">Spetex</string>
+    <string name="text_to_speech" translatable="false">Text to Speech</string>
+    <string name="speech_to_text" translatable="false">Speech to Text</string>
+    <string name="dictionary" translatable="false">Dictionary</string>
+    <string name="skip" translatable="false">Skip</string>
+    <string name="open_dictionary">Open Dictionary</string>
+    <string name="backbutton">BackButton</string>
+
+</resources>
+

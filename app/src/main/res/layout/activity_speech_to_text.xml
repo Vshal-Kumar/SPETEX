@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFEFEF">
+
+    <!-- Output EditText below the back button -->
+    <EditText
+        android:id="@+id/outputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:hint="Recognized speech will appear here"
+        android:padding="16dp"
+        android:textColorHint="#546E7A"
+        tools:ignore="Autofill,HardcodedText,TextFields,VisualLintTextFieldSize" />
+
+
+    <ImageButton
+        android:id="@+id/btnMic"
+        android:layout_width="83dp"
+        android:layout_height="88dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="16dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Mic"
+        android:src="@android:drawable/ic_btn_speak_now"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageSpeech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/speech"
+        android:contentDescription="Speech Image"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+</LinearLayout>

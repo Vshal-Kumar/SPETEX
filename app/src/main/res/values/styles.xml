@@ -1,0 +1,13 @@
+<!-- res/values/styles.xml -->
+<resources>
+
+    <style name="Theme.App" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#607274</item>
+        <item name="colorPrimaryDark">#FFF</item>
+        <item name="colorAccent">#00000000</item>
+    </style>
+
+    <style name="Theme.MyApp.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+</resources>
